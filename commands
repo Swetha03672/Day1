@@ -1,0 +1,198 @@
+Practiced Linux Commands    
+
+    1  touch ramya
+    2  cat>>ramya
+    3  ls
+    4  pwd
+    5  cd
+    6  mkdir dir1
+    7  ls -al
+    8  rmdir dir1
+    9  ls 
+   10  ls
+   11  pwd
+   12  cd
+   13  mkdir dir1
+   14  ls
+   15  rmdir dir1
+   16  ls
+   17  touch f{1..3}
+   18  ls
+   19  cp f1 f2
+   20  ls
+   21  pwd
+   22  cd
+   23  mkdir dir1
+   24  ls
+   25  rmdir dir1
+   26  ls
+   27  rm f1
+   28  ls
+   29  mv f2 f3
+   30  ls
+   31  cat >f3
+   32  cat >>f3
+   33  ls
+   34  tpuch f4
+   35  touch f4
+   36  ls
+   37  cat >f4
+   38  mv f4 f3
+   39  ls
+   40  touch f{1..4}
+   41  ls
+   42  pwd
+   43  mkdir dir1
+   44  ls
+   45  rmdir dir1
+   46  ls
+   47  rm f4
+   48  ls
+   49  ps
+   50  top
+   51  useradd swetha
+   52  usermod -aG swetha sweety
+   53  groupadd sweety
+   54  usermod -aG swetha sweety
+   55  cat /etc/group
+   56  userdel swetha
+   57  groupadd sweety
+   58  cat /etc/user
+   59  cat /etc/passwd
+   60  user add swetha
+   61  useradd swetha
+   62  cat /etc/passwd
+   63  usermod -aG sweety swetha
+   64  ls
+   65  rm f1es
+   66  ls
+   67  usermod -aG sweety swetha
+   68  visudo
+   69  chmod f1
+   70  chmod +777 f1
+   71  ls
+   72  history
+
+
+Practiced Git commands 
+
+   52  git --version
+   53  yum install git -y
+   54  git --version
+   55  git init
+   56  ls
+   57  rm -rf f*
+   58  ls
+   59  touch f{1..5}
+   60  ls
+   61  git add .
+   62  git status
+   63  git commit -m "first commit"
+   64  git status
+   65  git push origin master
+   66  git push origin master --force
+   67  git remote add origin https://github.com/Swetha03672/Day1.git
+   68  git push origin master
+   69  git branch
+   70  git branch swetha
+   71  git branch
+   72  git switch swetha
+   73  git checkout -b sweety
+   74  git branch
+   75  git switch swetha
+   76  git push origin swetha
+   77  git status
+   78  git merge sweety
+   79  git branch -d sweety
+   80  git branch
+   81  git switch master
+   82  git rebase swetha
+   83  git rebase master
+   84  git status
+   85  git log
+   86  git log --oneline
+   87  git log --summary
+   88  vi f2
+   89  git status
+   90  git commit -m "sec one commit"
+   91  git add f2
+   92  git status
+   93  git commit -m "sec one commit"
+   94  git status
+   95  git push origin master
+   96  git status
+   97  ls -al
+   98  git log --oneline --all --graph
+   99  git remote -v
+  100  git log --oneline
+  101  git stash
+  102  git stash pop
+  103  git stash list
+  104  git status
+  105  git reset --soft a3091b0
+  106  git status
+  107  git branch -d swetha
+  108  git branch
+  109  git fetch
+  110  git status
+  111  git config --global
+  112  git cherry-pick a3091b0
+  113  git add f6
+  114  git add f3
+  115  git sttaus
+  116  git status
+  117  touch f6
+  118  ls
+  119  git add f6
+  120  git status
+  121  git commit -m "third one"
+  122  git push origin swetha
+  123  git branch
+  124  git branch swetha
+  125  git branch
+  126  git switch switch
+  127  git switch swetha
+  128  git push origin swetha
+  129  git status
+  130  vi f3
+  131  cat f3
+  132  cat f2
+  133  git log -S
+  134  git log -S f
+  135  history
+  136  git config --global --list
+  137  git config
+  138  git config --global --list
+  139  touch f{7..9}.pdf
+  140  git status
+  141  git add .
+  142  git commit -m "fourth commit"
+  143  vi .gitginore
+  144  git status
+  145  ls -al
+  146  git update-index --assume-unchanged f2
+  147  git status
+  148  git add f*
+  149  git status
+  150  git commit -a
+  151  git config --global credential.helper cache
+  152  git config --global credential.helper 'cache timeout=3600'
+  153  history
+  154  git log
+  155  git clone https://github.com/Swetha03672/Day1.git
+  156  ls -al
+  157  rm .gitignore
+  158  git rm .gitignore
+  159  rm .gitginore
+  160  vi .gitignore
+  161  git status
+  162  git push origin master
+  163  git pull origin master
+  164  git status
+  165  git restore f*
+  166  git status
+  167  git ls-files
+  168  rm -rf f*.pdf
+  169  git ls-files
+  170  ls -al
+  171  ll
